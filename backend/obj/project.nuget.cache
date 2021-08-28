@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z0dcx9/Ec4TCZZZwoiV/f00qKLG09RqCUqM7WoMmCylDrVewtsozR+nlwbkL///lHCPwqK5RRbSfMR3UiVVG4Q==",
+  "success": true,
+  "projectFilePath": "C:\\repositorios\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Phantom\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}
