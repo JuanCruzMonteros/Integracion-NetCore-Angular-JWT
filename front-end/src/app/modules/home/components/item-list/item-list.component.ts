@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'item-list',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemListComponent implements OnInit {
 
+  @Input() items: any;
   constructor() { }
 
   ngOnInit(): void {

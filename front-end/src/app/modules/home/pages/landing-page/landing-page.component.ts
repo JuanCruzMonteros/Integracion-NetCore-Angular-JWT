@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { mockitems } from '../../mocks/item.mock';
 
 @Component({
   selector: 'app-landing-page',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
+  items: any;
+
   constructor() { }
 
   ngOnInit(): void {
+    setTimeout( () => {
+      this.items = mockitems;
+    })
   }
 
 }
