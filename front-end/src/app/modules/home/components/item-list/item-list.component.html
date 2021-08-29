@@ -2,9 +2,12 @@ Lista de items:
 
 <ng-container *ngFor="let item of items">
   <div class="card">
-    {{ item.titulo }}
-    {{ item.capitulo }}
-    {{ item.imagen }}
+    <a class="item" href="{{ item.link }}">
+      <span class="item__image">
+        <img src="{{ item.imagen }}" alt="{{ item.titulo }}">
+      </span>
+      <h3 class="item__cap">{{ item.capitulo }}</h3>
+      <strong class="item__tittle">{{ item.titulo }}</strong>
+    </a>
   </div>
 </ng-container>
-
